@@ -14237,7 +14237,7 @@ xclip
   -webkit-text-fill-color: #8b8b8b23;
   -webkit-background-clip: text;
   background-repeat: no-repeat;
-  background-image: linear-gradient(270deg, #d8d8d8 0%, #1d1c1c 100%);
+  background-image: linear-gradient(270deg, #2979ff 0%, #1d1c1c 100%);
   background-size: 0% 100%;
 }
 
@@ -15669,12 +15669,10 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
   }
 }
 .banner-two-wrapper .title span {
-  font-style: italic;
-  font-weight: 200;
+  font-weight: 400;
   position: relative;
 }
 .banner-two-wrapper .title span::after {
-  position: absolute;
   content: "";
   left: 0;
   bottom: 7px;
@@ -18677,7 +18675,7 @@ body.coming-soon {
   fill: #141414;
 }
 .single-service-h2:hover .inner-content a .title {
-  color: #141414;
+  color: #2979ff;
 }
 .single-service-h2:hover .inner-content p.disc {
   color: #828282;
@@ -18703,6 +18701,7 @@ body.coming-soon {
 .single-service-h2 .inner-content a .title {
   color: #fff;
   transition: 0.3s;
+  
 }
 .single-service-h2 .inner-content p.disc {
   font-weight: 500;
@@ -22344,7 +22343,7 @@ main {
 
 .single-pricing-area-start {
   padding: 50px;
-  background: #F1F1F1;
+  background: #e7f0ff;
   border-radius: 8px;
   text-align: left;
   transition: 0.5s;
@@ -23881,7 +23880,7 @@ main {
 }
 .marque-2 .text-split-wrap-about .title {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: #2979ff;
   color: #1B1B1B;
   text-transform: lowercase;
   font-family: var(--font-primary);
@@ -23897,7 +23896,7 @@ main {
   }
 }
 .marque-2 .text-split-wrap-about .title span {
-  -webkit-text-stroke-color: #393939;
+  -webkit-text-stroke-color: #2979ff;
   color: #1B1B1B;
 }
 
@@ -24206,12 +24205,10 @@ main {
   color: #141414;
 }
 .faq-right-wrapper-two .title-left-h2-wrapper .title span {
-  font-style: italic;
   position: relative;
   font-weight: 300;
 }
 .faq-right-wrapper-two .title-left-h2-wrapper .title span::after {
-  position: absolute;
   content: "";
   left: 0;
   bottom: 4px;
@@ -24626,7 +24623,7 @@ svg.radial-progress circle.bar-static {
 }
 svg.radial-progress circle.bar--animated {
   stroke-dasharray: 219.9114857513;
-  stroke: #ffffff;
+  stroke: #2979ff;
   stroke-dashoffset: 219.9114857513;
   stroke-width: 2px;
   transition: 0.3s;
@@ -27222,7 +27219,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   width: 200px;
   left: calc(50% - 50px);
   margin: 0;
-  background-color: #323234;
+  background-color: #2979FF;
   z-index: 5;
   z-index: 4;
   visibility: hidden;
@@ -29348,4 +29345,7 @@ body.servi-ce-details .rts-footer-two-area {
 .header-three .logo-area-white {
   display: none;
 }
+
+
+
 /*# sourceMappingURL=../maps/style.css.map */
