@@ -666,7 +666,8 @@ ol ul {
 }
 
 .rts-section-gapBottom {
-  padding-bottom: 150px;
+  padding-bottom: 0px;
+  padding-top: 70px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rts-section-gapBottom {
@@ -1194,7 +1195,7 @@ ol ul {
 }
 
 .mb--60 {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .mr--60 {
@@ -14191,7 +14192,7 @@ xclip
 }
 
 .p-white {
-  color: #74787C;
+  color: #000000;
 }
 
 .p-dark {
@@ -17890,7 +17891,7 @@ body.coming-soon {
   transition: 0.3s;
 }
 .rts-btn.btn-primary {
-  background: rgba(255, 255, 255, 0.05);
+  /* background: rgba(255, 255, 255, 0.05); */
   border-radius: 3px;
 }
 .rts-btn.btn-primary:hover {
@@ -18253,7 +18254,7 @@ body.coming-soon {
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: 0.96px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 15px;
 }
 @media only screen and (max-width: 1199px) {
@@ -18852,7 +18853,7 @@ body.coming-soon {
   }
 }
 .single-service-card-box-1 .right-icon {
-  color: rgba(20, 20, 20, 0.07);
+  color: #2979ff;
   position: absolute;
   right: 54px;
   top: 34px;
@@ -20379,9 +20380,10 @@ body.coming-soon {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
-  font-size: 160px;
+  font-size: 50px;
   line-height: 208px;
   text-transform: uppercase;
+  align-items: center;
 }
 @media only screen and (max-width: 1199px) {
   .rts-case-service-area-h2 .water-txt-top {
@@ -20874,7 +20876,7 @@ main {
 }
 .signle-portfolio-style-four-inner .thumbnail img {
   transition: 0.8s;
-  transform: scale(1.1) skew(-3deg);
+  /* transform: scale(1.1) skew(-3deg); */
 }
 .signle-portfolio-style-four-inner .thumbnail::before {
   position: absolute;
@@ -22264,7 +22266,7 @@ main {
   font-size: 48px;
   line-height: 1.1;
   color: #141414;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .title-area .title br {
@@ -22717,7 +22719,7 @@ main {
   content: "02" !important;
 }
 .single-approach-area-start.two::before {
-  background-image: url(../images/banner/24.jpg);
+  background-image: url(../images/banner/08.jpg);
 }
 .single-approach-area-start.three::after {
   content: "03" !important;
@@ -27699,7 +27701,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   max-width: max-content;
   margin: 80px 0 60px;
-  background: #9f9f9f;
+  background: #85b1fc;
   padding: 12px 20px;
   border-radius: 3px;
   
@@ -29087,7 +29089,7 @@ body.servi-ce-details .rts-footer-two-area {
   color: #141414;
 }
 .rts-light-mood .inner-page.contact-page .appoinment-h2 .submit-pd {
-  background: #141414;
+  background: #2979ff;
   color: #fff;
 }
 .rts-light-mood .inner-page.blog-details .blog-details-main-wrapper.rts-section-gap {
@@ -29345,6 +29347,58 @@ body.servi-ce-details .rts-footer-two-area {
 .header-three .logo-area-white {
   display: none;
 }
+
+/* Loader Container */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Loading Dots */
+.loading-dots span {
+  display: inline-block; /* Ensure span behaves as a block for width/height */
+  width: 20px;  /* Smaller diameter of the dot */
+  height: 20px; /* Smaller diameter of the dot */
+  background-color: white; /* White dots */
+  margin: 0 5px;
+  border-radius: 50%; /* Makes the dots perfectly round */
+  animation: blink 1.5s infinite ease-in-out;
+}
+
+/* Dot Animation with Delay */
+.loading-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loading-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* Keyframes for blinking dots */
+@keyframes blink {
+  0%, 20% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+
+
+
+
+
 
 
 
